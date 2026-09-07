@@ -1,19 +1,17 @@
-# Lathe recipe for the Trading Post Kit flatpack.
+# Recipe for the Trading Post Kit flatpack.
 #
-# v1 STUB (Claude/Opus, 2026-09-07) — mirrors the shape of
-# _Misfits/Recipes/Lathes/blueprint_recipes_eighties_motorbikes.yml but is deliberately left as a
-# plain, ungated recipe with placeholder materials. Two things must be finished before this works:
+# Crafted at the general workbench (N14WorkbenchMetal) — this recipe is registered in that bench's
+# staticRecipes list in _Nuclear14/Entities/Structures/Misc/craftingbenches.yml. A recipe that isn't
+# in a bench's list can never be crafted, so the two must stay in step.
 #
-# TODO(astra): 1) Register this recipe on a lathe — add `MisfitsTradingPostKitRecipe` to the target
-#              lathe's static/dynamic recipe list, or it will never appear to craft.
-#              2) Balance + gating (this is the PR's "Why / Balance" section): confirm the material
-#              ids and amounts, and decide whether it should be blueprint- or faction-gated like the
-#              Eighties precedent, or freely craftable. `Wood` material id in particular is unverified.
+# Deliberately NOT blueprint- or faction-gated (unlike the Eighties motorbike flatpacks): a shop
+# counter is general-purpose wasteland infrastructure, not faction tech. Cost is set a little above
+# building a counter by hand, which is what you pay for the convenience of a portable kit.
 
 - type: latheRecipe
   id: MisfitsTradingPostKitRecipe
   result: MisfitsTradingPostKitFlatpack
   completetime: 5
   materials:
-    Steel: 500
-    Plastic: 200
+    Wood: 500
+    Steel: 200

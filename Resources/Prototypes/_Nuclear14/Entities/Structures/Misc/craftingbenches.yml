@@ -700,6 +700,8 @@
     #Paperwork
     - N14WoodPencil # Forge-Change
     - N14PenReporter # Forge-Change
+    # Misfits Add: Trading Post
+    - MisfitsTradingPostKitRecipe
 
 - type: entity
   parent: N14WorkbenchBase
