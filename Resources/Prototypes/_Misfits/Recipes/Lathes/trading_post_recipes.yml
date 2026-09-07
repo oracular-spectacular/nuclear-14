@@ -11,6 +11,7 @@
 - type: latheRecipe
   id: MisfitsTradingPostKitRecipe
   result: MisfitsTradingPostKitFlatpack
+  category: N14Misc
   completetime: 5
   materials:
     Wood: 500
