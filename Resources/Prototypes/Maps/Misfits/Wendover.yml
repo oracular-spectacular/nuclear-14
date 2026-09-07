@@ -20,6 +20,7 @@
   mapsBelow:
     - /Maps/Misfits/Vault.yml
     - /Maps/Misfits/Enclave.yml
+    - /Maps/Misfits/GardenersUndercroft.yml # #Misfits Add - the Gardeners' undercroft (ladder-linked, warp ids gardeners_top/gardeners_bottom)
   stations:
     Wendover:
       stationProto: FalloutStation
