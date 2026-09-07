@@ -6,8 +6,9 @@
 # Sprite: _Misfits/Structures/Wallmount/flag_gardeners.rsi (CC-BY-SA-3.0, ours). The mark is the
 # author's own SIGIL "gardeners" design, converted to pixel art; the cloth was drawn for this sprite.
 #
-# Spawn/map-placeable for now. TODO: add a construction graph if players should be able to build it
-# in-world (mirror DecorationFlagBazaar) — wanted for the bazaar chapel reskin.
+# Player-buildable: 2x Cloth, deconstructed with a Cutting tool. Graph + construction prototype in
+# _Misfits/Recipes/Crafting/gardeners_flag.yml. That is what lets a Child raise the mark at an
+# outpost without a mapper — see docs/GARDENERS-LOCATIONS-PROPOSAL.md.
 
 - type: entity
   parent: N14SignBase
@@ -19,3 +20,6 @@
   - type: Sprite
     sprite: _Misfits/Structures/Wallmount/flag_gardeners.rsi
     state: flag_gardeners
+  - type: Construction
+    graph: MisfitsDecorationFlagGardeners
+    node: FlagGardeners

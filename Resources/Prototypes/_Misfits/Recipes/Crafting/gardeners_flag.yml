@@ -1,0 +1,46 @@
+# Buildable Gardeners flag — so a Child can raise the order's mark at an outpost without a mapper.
+#
+# Mirrors the DecorationFlagBazaar graph in _Misfits/Recipes/Crafting/Graphs/decorations.yml and the
+# NCFlagWallBazaar construction prototype beside it: same 2x Cloth cost, same Cutting deconstruct
+# that returns the cloth. Kept in its own file rather than appended to the shared decorations.yml —
+# upstream moves fast and a separate file keeps the merge surface small.
+
+- type: constructionGraph
+  id: MisfitsDecorationFlagGardeners
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: FlagGardeners
+          steps:
+            - material: Cloth
+              amount: 2
+              doAfter: 3
+
+    - node: FlagGardeners
+      entity: MisfitsFlagWallGardeners
+      edges:
+        - to: start
+          steps:
+            - tool: Cutting
+              doAfter: 3
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialCloth1
+              amount: 2
+            - !type:DeleteEntity
+
+- type: construction
+  name: Gardeners flag
+  id: MisfitsFlagWallGardeners
+  graph: MisfitsDecorationFlagGardeners
+  startNode: start
+  targetNode: FlagGardeners
+  description: The mark of the Gardeners - a seed at the centre, petals turned outward. Those who hang it say it means welcome, and mean it.
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  hide: false
+  icon:
+    sprite: _Misfits/Structures/Wallmount/flag_gardeners.rsi
+    state: flag_gardeners
