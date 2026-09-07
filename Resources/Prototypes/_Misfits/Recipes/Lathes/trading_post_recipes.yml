@@ -1,0 +1,19 @@
+# Lathe recipe for the Trading Post Kit flatpack.
+#
+# v1 STUB (Claude/Opus, 2026-09-07) — mirrors the shape of
+# _Misfits/Recipes/Lathes/blueprint_recipes_eighties_motorbikes.yml but is deliberately left as a
+# plain, ungated recipe with placeholder materials. Two things must be finished before this works:
+#
+# TODO(astra): 1) Register this recipe on a lathe — add `MisfitsTradingPostKitRecipe` to the target
+#              lathe's static/dynamic recipe list, or it will never appear to craft.
+#              2) Balance + gating (this is the PR's "Why / Balance" section): confirm the material
+#              ids and amounts, and decide whether it should be blueprint- or faction-gated like the
+#              Eighties precedent, or freely craftable. `Wood` material id in particular is unverified.
+
+- type: latheRecipe
+  id: MisfitsTradingPostKitRecipe
+  result: MisfitsTradingPostKitFlatpack
+  completetime: 5
+  materials:
+    Steel: 500
+    Plastic: 200

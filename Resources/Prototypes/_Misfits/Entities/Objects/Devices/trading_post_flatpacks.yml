@@ -1,0 +1,22 @@
+# Trading Post Kit — a flatpack that unfolds into a trading post counter.
+# Mirrors _Misfits/Entities/Objects/Devices/eighties_flatpacks.yml (the fork's proven pattern):
+# parent BaseFlatpack, a Flatpack component naming the entity to unfold, the shared flatpack sprite
+# layers, and a StaticPrice.
+
+- type: entity
+  parent: BaseFlatpack
+  id: MisfitsTradingPostKitFlatpack
+  name: trading post kit
+  description: A flatpack that unfolds into a trading post counter. Set it down, dress it with a banner and sign, open shop.
+  components:
+  - type: Flatpack
+    entity: MisfitsTradingPostCounter
+  - type: Sprite
+    layers:
+    - state: base
+    - state: overlay
+      color: "#8a5a2b"
+      map: ["enum.FlatpackVisualLayers.Overlay"]
+    - state: icon-default
+  - type: StaticPrice
+    price: 800
