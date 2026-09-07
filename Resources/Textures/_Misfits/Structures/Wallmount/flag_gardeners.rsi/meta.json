@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Created for Misfits by the Gardeners faction author. Mark derived from the author's own SIGIL 'gardeners' design (original work); banner cloth drawn for this sprite.",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "flag_gardeners"
+    }
+  ]
+}

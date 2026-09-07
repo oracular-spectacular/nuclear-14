@@ -1,0 +1,21 @@
+# Gardeners faction banner — the flower mark on a hanging cloth.
+#
+# Mirrors NCFlagWallBazaar (parent N14SignBase + Sprite), but points at our own RSI: the Corvax
+# flag.rsi is CC-BY-NC-SA-4.0 by other authors, so we do NOT add a state to it.
+#
+# Sprite: _Misfits/Structures/Wallmount/flag_gardeners.rsi (CC-BY-SA-3.0, ours). The mark is the
+# author's own SIGIL "gardeners" design, converted to pixel art; the cloth was drawn for this sprite.
+#
+# Spawn/map-placeable for now. TODO: add a construction graph if players should be able to build it
+# in-world (mirror DecorationFlagBazaar) — wanted for the bazaar chapel reskin.
+
+- type: entity
+  parent: N14SignBase
+  id: MisfitsFlagWallGardeners
+  name: Gardeners flag
+  suffix: gardeners
+  description: A green banner bearing the Gardeners' seed-and-petal mark. Those who hang it say it means welcome.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Structures/Wallmount/flag_gardeners.rsi
+    state: flag_gardeners
