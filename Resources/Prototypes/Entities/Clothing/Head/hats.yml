@@ -368,6 +368,12 @@
     sprite: Clothing/Head/Hats/fez.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/fez.rsi
+  # #Misfits Add - fits a super mutant's head as it is; the base hat's tags restated, since this list replaces them
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+    - SuperMutantWearable
 
 - type: entity
   parent: ClothingHeadBase
@@ -582,6 +588,12 @@
     - state: icon-up
       map: ["foldedLayer"]
       visible: false
+  # #Misfits Add - fits a super mutant's head as it is; the base hat's tags restated, since this list replaces them
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+    - SuperMutantWearable
 
 
 - type: entity
