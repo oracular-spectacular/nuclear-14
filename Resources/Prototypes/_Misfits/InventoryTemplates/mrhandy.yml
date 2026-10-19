@@ -1,0 +1,35 @@
+# #Misfits Add: Mr. Handy keeps the robot ears and nav-module slots and gains a head slot.
+# Only hats tagged MrHandyHat fit: each needs an equipped-HELMET-mrhandy state drawn on the
+# dome (the Inventory speciesId below picks it); a human-height hat would float off the sprite.
+- type: inventoryTemplate
+  id: borgRobotMrHandy
+  slots:
+  - name: head
+    slotTexture: head
+    slotFlags: HEAD
+    uiWindowPos: 2,0
+    strippingWindowPos: 2,0
+    displayName: Head
+    whitelist:
+      tags:
+      - MrHandyHat
+  - name: ears
+    slotTexture: ears
+    slotFlags: EARS
+    stripTime: 3
+    uiWindowPos: 0,0
+    strippingWindowPos: 0,0
+    displayName: Ears
+  - name: id
+    slotTexture: id
+    fullTextureName: template_small
+    slotFlags: IDCARD
+    slotGroup: SecondHotbar
+    stripTime: 999
+    stripHidden: true
+    uiWindowPos: 1,0
+    strippingWindowPos: 1,0
+    displayName: Nav-Module
+
+- type: Tag
+  id: MrHandyHat

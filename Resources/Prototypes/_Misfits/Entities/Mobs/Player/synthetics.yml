@@ -104,11 +104,15 @@
   components:
   - type: HumanoidAppearance
     species: RobotMrHandy
+  - type: Inventory # #Misfits Add: head slot for Mr. Handy hats
+    templateId: borgRobotMrHandy
+    speciesId: mrhandy
   - type: Sprite
     sprite: _Nuclear14/Mobs/Robots/mrhandyclaw.rsi
     layers:
     - state: icon
       map: ["enum.DamageStateVisualLayers.Base", "movement"]
+    - map: ["head"] # #Misfits Add: worn hat draws over the dome
     - state: on # #Misfits Fix: lit indicator; BorgSystem overrides at runtime
       map: ["enum.BorgVisualLayers.Light"]
       shader: unshaded
