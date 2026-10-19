@@ -267,6 +267,7 @@
   items:
     - ClothingSuperMutantRangerHatAlt
 
+# #Misfits Change: trooper armour and helmet open to every supermutant job
 - type: loadout
   id: MisfitsLoadoutSuperMutantTrooperArmor
   category: Outer
@@ -275,10 +276,37 @@
   requirements:
     - !type:CharacterJobRequirement
       jobs:
+        - SuperMutant
+        - Nightkin
+        - SuperMutantGladiator
+        - SuperMutantRanger
         - SuperMutantTrooper
+        - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
+        - SuperMutantTribal
+        - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantTrooperArmor
+
+- type: loadout
+  id: MisfitsLoadoutSuperMutantTrooperHelmet
+  category: Head
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - SuperMutant
+        - Nightkin
+        - SuperMutantGladiator
+        - SuperMutantRanger
+        - SuperMutantTrooper
+        - SuperMutantNCRRanger
+        - SuperMutantNCRTrooper
+        - SuperMutantTribal
+        - SuperMutantFollowerDoctor
+  items:
+    - ClothingSuperMutantTrooperHelmet
 
 - type: loadout
   id: MisfitsLoadoutSuperMutantOutfitC

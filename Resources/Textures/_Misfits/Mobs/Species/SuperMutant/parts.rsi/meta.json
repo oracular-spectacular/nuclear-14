@@ -1,12 +1,16 @@
 {
   "version": 1,
   "license": "CC-BY-NC-SA-3.0",
-  "copyright": "Pinky109 2026",
+  "copyright": "Pinky109 2026; eyes state taken from head_m's eye pixels by PIXEL",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
+    {
+      "name": "eyes",
+      "directions": 4
+    },
     {
       "name": "full"
     },

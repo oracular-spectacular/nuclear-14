@@ -364,11 +364,11 @@
     - SuperMutantWearable
 
 
-# #Misfits Add - Trooper armor for the playable Supermutant Trooper job variant.
+# #Misfits Add - Trooper armor for the playable Supermutant Trooper job variant. #Misfits Change: renamed Supermutant Trooper Armour for the lobby loadout.
 - type: entity
   parent: [ClothingOuterBase, AllowSuitStorageClothing]
   id: ClothingSuperMutantTrooperArmor
-  name: Super Trooper Armor Kit
+  name: Supermutant Trooper Armour
   description: Thick armor plates welded together and built for a front-line patriot, with the NCR flag painted on the breastplate. Its not very pretty, but it will keep you alive until you crush just a few more enemies.
   components:
   - type: Sprite

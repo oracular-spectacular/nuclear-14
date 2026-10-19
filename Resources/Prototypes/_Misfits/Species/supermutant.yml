@@ -70,6 +70,7 @@
   id: MobSuperMutantSprites
   sprites:
     Head: MobSuperMutantHead
+    Eyes: MobSuperMutantEyes
     Chest: MobSuperMutantTorso
     LArm: MobSuperMutantLArm
     RArm: MobSuperMutantRArm
@@ -119,6 +120,14 @@
   baseSprite:
     sprite: _Misfits/Mobs/Species/SuperMutant/parts.rsi
     state: head_m
+
+# Eyes sit at the super mutant's head height, so they need their own state; the
+# human eyes.rsi draws too low. Greyscale so the eye colour tints it.
+- type: humanoidBaseSprite
+  id: MobSuperMutantEyes
+  baseSprite:
+    sprite: _Misfits/Mobs/Species/SuperMutant/parts.rsi
+    state: eyes
 
 - type: humanoidBaseSprite
   id: MobSuperMutantHeadMale
