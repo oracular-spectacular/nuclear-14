@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 09/30/2026 15:58:35
-  entityCount: 294756
+  entityCount: 294757
 maps:
 - 1
 grids:
@@ -1405195,6 +1405195,13 @@ entities:
     - type: Transform
       parent: 1
       pos: 270.5,-88.5
+- proto: MisfitsSpawnPointSuperMutantBazaar
+  entities:
+  - uid: 294757
+    components:
+    - type: Transform
+      parent: 1
+      pos: 317.5,83.5
 - proto: MisfitsSpawnPointSuperMutantFollowerDoctor
   entities:
   - uid: 54511

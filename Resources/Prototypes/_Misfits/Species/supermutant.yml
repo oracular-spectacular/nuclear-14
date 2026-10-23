@@ -46,6 +46,7 @@
   - SuperMutantTribal
   - SuperMutantFollowerDoctor
   - SuperMutantEnclave
+  - SuperMutantBazaar # #Misfits Add
   prototype: N14MobSuperMutant
   sprites: MobSuperMutantSprites
   markingLimits: MobSuperMutantMarkingLimits

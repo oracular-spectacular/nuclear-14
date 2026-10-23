@@ -505,3 +505,46 @@
     id: N14EnclaveTrooperPipboy
 - type: playTimeTracker
   id: SuperMutantEnclave
+
+# #Misfits Add - Bazaar Supermutant: one town supermutant who spawns in the Bazaar bar (owner, 2026-10-23).
+- type: job
+  id: SuperMutantBazaar
+  jobWhitelistBypassesRoleTimers: true
+  name: job-name-supermutant-bazaar
+  description: job-description-supermutant-bazaar
+  playTimeTracker: SuperMutantBazaar
+  icon: JobIconTownPerson
+  supervisors: job-supervisors-townsfolk
+  canBeAntag: false
+  setPreference: true
+  overrideConsoleVisibility: true
+  whitelisted: true
+  hideWithoutWhitelist: true
+  spawnLoadout: true
+  applyTraits: true
+  startingGear: SuperMutantBazaarGear
+  access:
+  - TownsPerson
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - SuperMutant
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: NpcFactionMember
+        factions:
+          - PlayerSuperMutant
+          - Wastelander
+          - Townsfolk
+
+- type: playTimeTracker
+  id: SuperMutantBazaar
+
+- type: startingGear
+  id: SuperMutantBazaarGear
+  equipment:
+    wallet: N14Wallet
+    jumpsuit: ClothingSuperMutantJumpsuit
+    id: N14IDPassportTownsfolk
+    ears: MisfitsClothingHeadsetTown
