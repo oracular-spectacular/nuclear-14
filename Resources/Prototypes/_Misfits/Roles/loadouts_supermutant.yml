@@ -17,6 +17,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantGladiatorLoincloth
@@ -37,6 +39,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantSkullHelmetTribal
@@ -57,6 +61,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantTribalGloves
@@ -77,6 +83,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantZootSuit
@@ -97,6 +105,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantZootHat
@@ -117,6 +127,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantZootBoot
@@ -137,6 +149,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantLeatherBoots
@@ -157,6 +171,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantVaultSuit
@@ -177,6 +193,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantTribalLoincloth
@@ -198,6 +216,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantGladiatorArmor
@@ -296,6 +316,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantOutfitC
@@ -316,6 +338,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantGladiatorBoots
@@ -336,6 +360,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantGladiatorHelmet
@@ -356,6 +382,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantNeck
@@ -376,6 +404,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantNeckTrinket
@@ -396,6 +426,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantNeckCapeTribal
@@ -416,6 +448,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantScavengedGloves
@@ -436,6 +470,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - SupermutantBlackGloves
@@ -456,6 +492,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantScavengedArmor
@@ -476,6 +514,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantScavengedHelmet
@@ -496,6 +536,8 @@
         - SuperMutantNCRRanger
         - SuperMutantNCRTrooper
         - SuperMutantTribal
+        - SuperMutantBazaar
+        - SuperMutantGardener
         - SuperMutantFollowerDoctor
   items:
     - ClothingSuperMutantScavengedBoots
