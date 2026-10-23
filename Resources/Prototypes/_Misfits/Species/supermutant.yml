@@ -47,6 +47,7 @@
   - SuperMutantFollowerDoctor
   - SuperMutantEnclave
   - SuperMutantBazaar # #Misfits Add
+  - SuperMutantGardener # #Misfits Add
   prototype: N14MobSuperMutant
   sprites: MobSuperMutantSprites
   markingLimits: MobSuperMutantMarkingLimits

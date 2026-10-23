@@ -107,9 +107,12 @@ job-description-supermutant-trooper = You are the hammer — a supermutant front
 job-name-supermutant-enclave = Enclave Supermutant
 job-description-supermutant-enclave = A Supermutant working for the United States. Service Guarantees Citizenship!
 
-# #Misfits Add - Bazaar Supermutant (town supermutant, spawns in the bar)
-job-name-supermutant-bazaar = Bazaar Supermutant
+# #Misfits Add - Supermutant Bazaar Dweller (town supermutant, spawns in the bar)
+job-name-supermutant-bazaar = Supermutant Bazaar Dweller
 job-description-supermutant-bazaar = A supermutant who has made a home in the Town of Bazaar. You start in the bar; the townsfolk are your neighbours.
+# #Misfits Add - Supermutant Gardener (whitelisted supermutant farmhand, misfits-server#41)
+job-name-supermutant-gardener = Supermutant Gardener
+job-description-supermutant-gardener = A supermutant with a green thumb. You start on the farm beside the wasteland farmers; grow food and keep the fields safe.
 
 # #Misfits Add - NCR-aligned supermutant variants for the FEVMutants whitelist department.
 job-name-supermutant-ncr-ranger = Supermutant NCR Ranger

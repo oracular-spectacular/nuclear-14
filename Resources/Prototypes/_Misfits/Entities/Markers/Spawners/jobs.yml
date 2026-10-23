@@ -967,6 +967,14 @@
 
 - type: entity
   parent: MisfitsSpawnPointSuperMutant
+  id: MisfitsSpawnPointSuperMutantGardener
+  name: super mutant gardener
+  components:
+  - type: SpawnPoint
+    job_id: SuperMutantGardener
+
+- type: entity
+  parent: MisfitsSpawnPointSuperMutant
   id: MisfitsSpawnPointSuperMutantEnclave
   name: super mutant enclave
   components:

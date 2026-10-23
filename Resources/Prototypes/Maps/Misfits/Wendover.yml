@@ -36,6 +36,7 @@
           WasterTrader: [ 1, 1 ]
           SuperMutant: [ 4, 4 ] # #Misfits Change /Fix/: make the FEV Mutant role available for mid-round joins. #Misfits Change - 5 to 4, one moved to SuperMutantBazaar
           SuperMutantBazaar: [ 1, 1 ] # #Misfits Add - town supermutant, spawns in the Bazaar bar.
+          SuperMutantGardener: [ 1, 1 ] # #Misfits Add - supermutant farmhand, spawns beside the Wasteland farmer (misfits-server#41).
           Nightkin: [ 0, 1 ] # #Misfits Add - Nightkin variant, whitelist gated.
           SuperMutantGladiator: [ 0, 1 ] # #Misfits Add: Gladiator variant.
           SuperMutantNCRRanger: [ 0, 1 ] # #Misfits Add: NCR Ranger variant.

@@ -520,6 +520,7 @@
   overrideConsoleVisibility: true
   whitelisted: true
   hideWithoutWhitelist: true
+  showBorder: true # #Misfits Add - own divider row like the other supermutant jobs (misfits-server#41)
   spawnLoadout: true
   applyTraits: true
   startingGear: SuperMutantBazaarGear
@@ -548,3 +549,50 @@
     jumpsuit: ClothingSuperMutantJumpsuit
     id: N14IDPassportTownsfolk
     ears: MisfitsClothingHeadsetTown
+
+# #Misfits Add - Supermutant Gardener: one whitelisted supermutant who works the farm beside the Wasteland farmer (misfits-server#41).
+- type: job
+  id: SuperMutantGardener
+  jobWhitelistBypassesRoleTimers: true
+  name: job-name-supermutant-gardener
+  description: job-description-supermutant-gardener
+  playTimeTracker: SuperMutantGardener
+  icon: JobIconWastelandFarmer
+  supervisors: job-supervisors-wastelander
+  canBeAntag: false
+  setPreference: true
+  overrideConsoleVisibility: true
+  whitelisted: true
+  hideWithoutWhitelist: true
+  showBorder: true
+  spawnLoadout: true
+  applyTraits: true
+  startingGear: SuperMutantGardenerGear
+  access:
+  - WastelandFarmer
+  - TownsPerson
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - SuperMutant
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: NpcFactionMember
+        factions:
+          - PlayerSuperMutant
+          - Wastelander
+
+- type: playTimeTracker
+  id: SuperMutantGardener
+
+- type: startingGear
+  id: SuperMutantGardenerGear
+  equipment:
+    wallet: N14Wallet
+    jumpsuit: ClothingSuperMutantJumpsuit
+    ears: MisfitsClothingHeadsetTown
+    back: N14ClothingBackpackExplorer
+    shoes: ClothingSuperMutantGladiatorBoots
+    belt: ClothingBeltFarmerFilled
+    id: N14IDPassportWasteFarmer
