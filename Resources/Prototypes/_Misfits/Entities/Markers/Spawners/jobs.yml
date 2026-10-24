@@ -957,6 +957,30 @@
   - type: SpawnPoint
     job_id: SuperMutantTribal
 
+- type: entity
+  parent: MisfitsSpawnPointSuperMutant
+  id: MisfitsSpawnPointSuperMutantBazaar
+  name: super mutant bazaar
+  components:
+  - type: SpawnPoint
+    job_id: SuperMutantBazaar
+
+- type: entity
+  parent: MisfitsSpawnPointSuperMutant
+  id: MisfitsSpawnPointSuperMutantGardener
+  name: super mutant gardener
+  components:
+  - type: SpawnPoint
+    job_id: SuperMutantGardener
+
+- type: entity
+  parent: MisfitsSpawnPointSuperMutant
+  id: MisfitsSpawnPointSuperMutantEnclave
+  name: super mutant enclave
+  components:
+  - type: SpawnPoint
+    job_id: SuperMutantEnclave
+
 # Followers of the Apocalypse ranked spawn points. The base N14 marker is the
 # entry-level volunteer marker; these keep ranked roles at the Followers base.
 - type: entity
