@@ -441,7 +441,7 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingSuperMutantVaultSuit
-  name: Old Vault-Tec Jumpsuit
+  name: Weathered Old Vault-Tec Jumpsuit
   description: Its hard to remember the past, it hurts your head. The number has long been worn away by time... why can't you remember?
   components:
   - type: Sprite
