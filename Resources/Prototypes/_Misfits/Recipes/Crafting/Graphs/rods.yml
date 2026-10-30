@@ -1,0 +1,21 @@
+#Misfits Add: metal rods from steel scrap and scrap (misfits-server#67)
+- type: constructionGraph
+  id: MisfitsMetalRodScrap
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: rodFromSteelScrap
+          steps:
+            - material: N14ScrapSteel
+              amount: 2
+        - to: rodFromScrap
+          steps:
+            - material: N14Scrap
+              amount: 3
+
+    - node: rodFromSteelScrap
+      entity: PartRodMetal1
+
+    - node: rodFromScrap
+      entity: PartRodMetal1
