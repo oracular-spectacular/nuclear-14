@@ -1,0 +1,37 @@
+#Misfits Add: metal rods in the construction menu (misfits-server#67)
+# Steel reuses the upstream MetalRod graph (1 steel -> 2 rods); its own recipe is hidden by default.
+- type: construction
+  name: metal rod
+  id: MisfitsMetalRodSteel
+  graph: MetalRod
+  startNode: start
+  targetNode: MetalRod
+  category: construction-category-materials
+  description: Two metal rods from one sheet of steel.
+  icon: { sprite: Objects/Materials/parts.rsi, state: rods }
+  objectType: Item
+  hide: false
+
+- type: construction
+  name: metal rod (steel scrap)
+  id: MisfitsMetalRodSteelScrap
+  graph: MisfitsMetalRodScrap
+  startNode: start
+  targetNode: rodFromSteelScrap
+  category: construction-category-materials
+  description: One metal rod from two steel scrap.
+  icon: { sprite: Objects/Materials/parts.rsi, state: rods }
+  objectType: Item
+  hide: false
+
+- type: construction
+  name: metal rod (scrap)
+  id: MisfitsMetalRodScrap
+  graph: MisfitsMetalRodScrap
+  startNode: start
+  targetNode: rodFromScrap
+  category: construction-category-materials
+  description: One metal rod from three scrap.
+  icon: { sprite: Objects/Materials/parts.rsi, state: rods }
+  objectType: Item
+  hide: false
