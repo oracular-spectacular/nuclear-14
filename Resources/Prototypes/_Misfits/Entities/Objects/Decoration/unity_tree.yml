@@ -1,0 +1,65 @@
+# The Gardeners' Unity tree. Place UnityTree on the west of its two trunk tiles; on a Multi-Z map, place
+# UnityTreeRoots on the level below at the same x, y so the roots continue the trunk.
+
+- type: entity
+  parent: BaseTree
+  id: UnityTree
+  name: Unity tree
+  description: A woman grown into a weeping tree, its strands glowing blue in the dark.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Structures/Decoration/Flora/unitree_main.rsi
+    offset: 0.5,2 # 4x5 tiles: the trunk's foot on this tile and the one east, the crown three tiles above
+    layers:
+    - state: trunk
+    - state: canopy
+    - state: trunk-glow
+      shader: unshaded
+    - state: canopy-glow
+      shader: unshaded
+    - state: halo
+      map: [ "halo" ]
+    - state: halo-glow
+      shader: unshaded
+    - state: figure
+      map: [ "figure" ] # variants swap this layer
+  - type: Icon
+    sprite: _Misfits/Structures/Decoration/Flora/unitree_main.rsi
+    state: tree
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.45,1.4,0.3"
+        density: 1000
+        layer:
+        - WallLayer
+  - type: PointLight
+    color: "#a8f6ff"
+    radius: 5
+    energy: 1.5
+    castShadows: false
+
+- type: entity
+  id: UnityTreeRoots
+  name: Unity tree roots
+  description: The Unity tree's roots, twisting down through the floor above.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Clickable
+  - type: Sprite
+    sprite: _Misfits/Structures/Decoration/Flora/unitree_tol_roots.rsi
+    noRot: true
+    drawdepth: Objects
+    offset: 0.5,-2.5 # 4x4 tiles: the top row continues the trunk's foot on the level above
+    layers:
+    - state: roots
+    - state: roots-glow
+      shader: unshaded
+  - type: PointLight
+    color: "#a8f6ff"
+    radius: 3
+    energy: 1
+    castShadows: false
