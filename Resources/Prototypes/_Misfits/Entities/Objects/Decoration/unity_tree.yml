@@ -8,19 +8,23 @@
   description: A woman grown into a weeping tree, its strands glowing blue in the dark.
   components:
   - type: Sprite
-    sprite: _Misfits/Structures/Decoration/Flora/unitree_tol.rsi
+    sprite: _Misfits/Structures/Decoration/Flora/unitree_main.rsi
     offset: 0.5,2 # 4x5 tiles: the trunk's foot on this tile and the one east, the crown three tiles above
     layers:
     - state: trunk
     - state: canopy
-    - state: figure
-      map: [ "figure" ] # variants swap only this layer
     - state: trunk-glow
       shader: unshaded
     - state: canopy-glow
       shader: unshaded
+    - state: halo
+      map: [ "halo" ]
+    - state: halo-glow
+      shader: unshaded
+    - state: figure
+      map: [ "figure" ] # variants swap this layer
   - type: Icon
-    sprite: _Misfits/Structures/Decoration/Flora/unitree_tol.rsi
+    sprite: _Misfits/Structures/Decoration/Flora/unitree_main.rsi
     state: tree
   - type: Fixtures
     fixtures:
